@@ -1,2 +1,2 @@
 # simple-landing
-My project siple landing-page
+1) Simple Landing Page
