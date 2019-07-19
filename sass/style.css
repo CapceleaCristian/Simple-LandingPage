@@ -4,6 +4,11 @@
           box-sizing: border-box;
 }
 
+.row {
+  margin: 0;
+  padding: 0;
+}
+
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -149,8 +154,10 @@ a.blue-btn:hover {
 .view .view-text {
   max-width: 510px;
   margin: 0 auto;
-  margin-top: 190px;
-  margin-bottom: 190px;
+  margin-top: 185px;
+  margin-bottom: 185px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .view .view-text h3 {
@@ -158,7 +165,6 @@ a.blue-btn:hover {
   line-height: 18px;
   color: #000;
   font-weight: 600;
-  margin-bottom: 40px;
 }
 
 .view .view-text p {
@@ -172,5 +178,146 @@ a.blue-btn:hover {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.product-features {
+  background: url(../img/Snowflake-1.png), url(../img/Snowflake-2.png);
+  background-position: 45px -100px, 1230px 1140px;
+  background-repeat: no-repeat;
+  padding: 85px 380px;
+}
+
+.product-features .product-img {
+  float: left;
+  padding: 85px 0 45px;
+}
+
+.product-features .product-img img {
+  max-width: 430px;
+}
+
+.product-features .product-text {
+  padding: 310px 20px;
+}
+
+.product-features .product-text h3 {
+  font-size: 48px;
+  line-height: 18px;
+  color: #43a9ff;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.product-features .product-text p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #d2d5d8;
+  font-weight: 600;
+}
+
+.awesome {
+  padding-top: 50px;
+  background-color: #f7f8fb;
+  background-image: url(../img/Snowflake-3.png);
+  background-position: 205px 60px;
+  background-repeat: no-repeat;
+}
+
+.awesome .awesome-img {
+  margin-left: 100px;
+}
+
+.awesome .awesome-text {
+  padding: 0 50px;
+}
+
+.awesome .awesome-text h3 {
+  margin: 160px 0 50px;
+  font-size: 48px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #fe3254;
+  font-weight: 600;
+}
+
+.awesome .awesome-text p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #c0c5c9;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.awesome .awesome-creator {
+  padding: 0 50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.awesome .company-name {
+  color: #c0c5c9;
+}
+
+.outro {
+  padding-top: 150px;
+}
+
+.outro .outro-inner {
+  margin-bottom: 150px;
+}
+
+.outro .outro-inner p {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #c0c5c9;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.outro .outro-inner h3 {
+  font-size: 48px;
+  line-height: 18px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.outro .outro-inner a {
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: transparent;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #43a9ff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.outro .outro-inner a:hover {
+  background-color: #43a9ff;
+  color: #fff;
+}
+
+.outro img {
+  width: 100%;
+}
+
+.outro .footer-nav {
+  padding-top: 50px;
+  margin: 0;
+}
+
+.outro .footer-nav .nav-menu a {
+  color: #43a9ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.outro .footer-nav .nav-menu a:hover {
+  border-color: #43a9ff;
 }
 /*# sourceMappingURL=style.css.map */

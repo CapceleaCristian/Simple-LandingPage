@@ -3,6 +3,10 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+.row{
+    margin: 0;
+    padding: 0;
+}
 .nopadding {
     padding: 0 !important;
     margin: 0 !important;
@@ -130,21 +134,20 @@ a.blue-btn:hover{
 // start of view section
 .view{
     background-color: #f7f8fb;
-
     padding: 0;
     margin: 0;
     .view-text{
         max-width: 510px;
         margin: 0 auto;
-        margin-top: 190px;
-        margin-bottom: 190px;
+        margin-top: 185px;
+        margin-bottom: 185px;
+        object-fit: cover;
 
         h3{
             font-size: 48px;
             line-height: 18px;
             color: #000;
             font-weight: 600;
-            margin-bottom: 40px;
         }
         p{
             font-size: 16px;
@@ -161,3 +164,133 @@ a.blue-btn:hover{
         }
     }
 // end of view section
+// start of product features
+.product-features{
+    background: url(../img/Snowflake-1.png),
+                url(../img/Snowflake-2.png);
+    background-position: 45px -100px, 1230px 1140px;
+    background-repeat: no-repeat;
+    padding: 85px 380px;
+    
+    .product-img{
+        float: left;
+        padding: 85px 0 45px;
+        img{
+            max-width: 430px;
+        }
+        
+    }
+    .product-text{
+        padding: 310px 20px;
+        h3{
+            font-size: 48px;
+            line-height: 18px;
+            color: #43a9ff;
+            font-weight: 600;
+            padding-bottom: 40px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 36px;
+            color: #d2d5d8;
+            font-weight: 600;
+        }
+    }
+}
+// end of product features
+// start of awesome section
+.awesome{
+    padding-top: 50px;
+    background-color: #f7f8fb;
+    background-image: url(../img/Snowflake-3.png);
+    background-position: 205px 60px;
+    background-repeat: no-repeat;
+    .awesome-img{
+        margin-left: 100px;
+    }
+    .awesome-text{
+        padding: 0 50px;
+        h3{
+            margin: 160px 0 50px;
+            font-size: 48px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #fe3254;
+            font-weight: 600;
+        }
+        p{
+            font-size: 16px;
+            line-height: 36px;
+            color: #c0c5c9;
+            font-weight: 600;
+            margin-bottom: 60px;
+        }
+    }
+    .awesome-creator{
+        padding: 0 50px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .company-name{
+        color: #c0c5c9;
+    }
+    
+}
+// end of awesome section
+// start of outro section
+.outro{
+    padding-top: 150px;
+    .outro-inner{
+        margin-bottom: 150px;
+        p{
+            font-size: 18px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #c0c5c9;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        h3{
+            font-size: 48px;
+            line-height: 18px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 80px;
+        }
+        a{
+            padding: 15px 30px;
+            border-radius: 25px;
+            background-color: transparent;
+            font-size: 14px;
+            letter-spacing: 0px;
+            line-height: 18px;
+            color: #43a9ff;
+            font-family: "Montserrat";
+            font-weight: 700;
+            transition: all 0.3s ease-in-out;
+        }
+        a:hover{
+            background-color: #43a9ff;
+            color: #fff;
+        }
+ 
+    }
+    img{
+        width: 100%;
+    }
+    .footer-nav{
+        padding-top: 50px;
+        margin: 0;
+        .nav-menu{
+            a{
+            color: #43a9ff;
+            transition: all 0.3s ease-in-out;
+        }
+        a:hover{
+            border-color: #43a9ff;
+        }
+    }
+    }
+    
+}
+// end of outro section
